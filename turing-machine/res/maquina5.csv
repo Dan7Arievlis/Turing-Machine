@@ -1,0 +1,8 @@
+Estado ! Leitura ! Escrita ! Movimentacao ! ParaEstado
+a      ! 1       ! 1       ! R            ! a
+a      ! 0       ! 1       ! R            ! b
+b      ! 1       ! 1       ! R            ! b
+b      !         !         ! L            ! c
+c      ! 1       !         ! L            ! d
+d      ! 1       ! 1       ! L            ! d
+d      !         !         ! R            !  
