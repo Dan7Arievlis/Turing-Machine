@@ -21,7 +21,7 @@ do documento com a seguinte linha para se guiar na edição do arquiv (o cabeça
 porque o algoritmo de leitura dos comandos ignora a primeira linha do documento, destinada para a
 identificação das colunas na tabela):
 
-```Estado ! Leitura ! Escrita ! Movimentacao ! Para Estado```
+```Estado ! Leitura ! Escrita ! Movimentacao ! ParaEstado```
 
 Note os "!" estre as colunas, ele é o delimitador para leitura das colunas, ele é necessário para separar
 as informações de cada parâmetro (Se a exclamação não te interessar, esse argumento pode ser alterado
@@ -37,7 +37,7 @@ entradas {R, L, S} referentes aos movimentos que a máquina pode realizar:
   - S: Estacionário.
 
 A condição de parada é alcançada quando o comando analizado aponta para um próximo estado com um dos seguintes
-valores: ```{'#', '%', ' '}```. Quando um comando apontar para um desses caracteres na coluna 'Para Estado',
+valores: ```{'#', '%', ' '}```. Quando um comando apontar para um desses caracteres na coluna 'ParaEstado',
 a máquina verifica se o estado atual pertence ao conjunto de estados finais enviados na sua criação para
 mais uma checagem.
 
