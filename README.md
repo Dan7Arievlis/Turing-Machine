@@ -14,7 +14,7 @@ Métodos para imprimir o caminho de execução, configurar a fita inicial, colet
 da tabela de comandos e a própria execução da máquina, que recebe a entrada para análise
 também estão presentes.
 
-# Como configurar sua prória máquina
+# Como configurar sua própria máquina
 
 Primeiro, crie um arquivo .csv e salve na pasta de recursos ```res```. Depois preencha o cabeçalho
 do documento com a seguinte linha para se guiar na edição do arquiv (o cabeçalho também é importante
